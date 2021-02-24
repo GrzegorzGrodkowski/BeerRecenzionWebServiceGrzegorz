@@ -6,8 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e517014e-1b8a-4d21-87d0-fc03270293f9" name="Default Changelist" comment="Init flask project structure.">
+      <change afterPath="$PROJECT_DIR$/beerrecenzionservice/firebase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beerrecenzionservice/serviceAccountCredential.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instance/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/instance/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beerrecenzionservice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/beerrecenzionservice/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beerrecenzionservice/views/beers_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/beerrecenzionservice/views/beers_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beerrecenzionservice/views/main_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/beerrecenzionservice/views/main_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/RECORD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +45,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/beerrecenzionservice" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PythonProjects\BeerRecenzionService\beer_recenzion_service\beerrecenzionservice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\PythonProjects\BeerRecenzionService\beer_recenzion_service\beerrecenzionservice\static" />
       <recent name="F:\PythonProjects\BeerRecenzionService\beer_recenzion_service\beerrecenzionservice\templates" />
@@ -172,38 +181,38 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1614169407315" />
-    <state width="1163" height="248" key="GridCell.Tab.0.bottom" timestamp="1614169272183">
+    <state width="1256" height="352" key="GridCell.Tab.0.bottom" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1163" height="248" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272183" />
-    <state width="1163" height="248" key="GridCell.Tab.0.center" timestamp="1614169272182">
+    <state width="1256" height="352" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
+    <state width="1256" height="352" key="GridCell.Tab.0.center" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1163" height="248" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272182" />
-    <state width="1163" height="248" key="GridCell.Tab.0.left" timestamp="1614169272182">
+    <state width="1256" height="352" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
+    <state width="1256" height="352" key="GridCell.Tab.0.left" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1163" height="248" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272182" />
-    <state width="1163" height="248" key="GridCell.Tab.0.right" timestamp="1614169272182">
+    <state width="1256" height="352" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
+    <state width="1256" height="352" key="GridCell.Tab.0.right" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1163" height="248" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272182" />
-    <state width="1391" height="835" key="GridCell.Tab.1.bottom" timestamp="1614160816632">
+    <state width="1256" height="352" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
+    <state width="1256" height="352" key="GridCell.Tab.1.bottom" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1391" height="835" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
-    <state width="1391" height="835" key="GridCell.Tab.1.center" timestamp="1614160816632">
+    <state width="1256" height="352" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
+    <state width="1256" height="352" key="GridCell.Tab.1.center" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1391" height="835" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
-    <state width="1391" height="835" key="GridCell.Tab.1.left" timestamp="1614160816632">
+    <state width="1256" height="352" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
+    <state width="1256" height="352" key="GridCell.Tab.1.left" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1391" height="835" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
-    <state width="1391" height="835" key="GridCell.Tab.1.right" timestamp="1614160816632">
+    <state width="1256" height="352" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
+    <state width="1256" height="352" key="GridCell.Tab.1.right" timestamp="1614208450611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1391" height="835" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
+    <state width="1256" height="352" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1614208450611" />
     <state x="209" y="209" key="SettingsEditor" timestamp="1614170439868">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -214,8 +223,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/beerrecenzionservice/views/beers_view.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="13" />
+          <line>79</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

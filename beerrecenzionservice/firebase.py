@@ -1,0 +1,22 @@
+import pyrebase
+
+config = {
+  "apiKey": "AIzaSyCKfarXGR50K79WUEG9o3P3L5v4q8VjGr4",
+  "authDomain": "beerrecenzionservice-694f8.firebaseapp.com",
+  "databaseURL": "https://databaseName.firebaseio.com",
+  "storageBucket": "beerrecenzionservice-694f8.appspot.com",
+  "serviceAccount": {
+  "type": "service_account",
+  "project_id": "beerrecenzionservice-694f8",
+  "private_key_id": "936549bb99b2290f9298f31365c963cef8bcd05d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCebwzrRbWljW8V\ndAnz19o+QB3rQvGDu2IUoN21wGWN7T9Ft3qUdXR6Gjy4tNbzaH3gJDtiX2KrO755\n88IdJE3ZLvcU4pA6lHBqLkcHqTGQTvKFl1WfbQzYQkEihl6COo59e2TCZnGWZFdh\nCl2EInHz88xOD3ZSY04EOErIB8M/VKS0wfHAhbxyrAyY6kB9qFzi/N0bWTUm4CD8\nBZmEBaA1RrxLhptw80Gm6J/ata4SCYLdN9d7uRzVdY/Fm/w7DK9Ul510FdUBtwZA\nvCjUvIFkN/wqQu1VLpQLqPD3wSqYpU9rslYmWlkOkbZZgYg4G/7S4g1ymCEAjTMp\n+Xxu7uoXAgMBAAECggEALwBt+jxPg8I+QsSOkU8nmVEnLxzIjpagJdOFgr6FwkGw\nhCvHC1T/DZxMCFXp8QM+WKkXDvuSR49tVjuZClEzYSucNI90T1SrNuzsuJqasB+j\ntjsrtSTCa0PYk/f+AK+Dhzl8rml66C1zeL/8907KtJ9OrJfMt+trATh8AvS+mUI4\nqxfpjNXvat12rM8W7PIScp3UiUgRkYfZKorOBdvUEqnkYFAU3jb2+E/fbp2JmLRF\nzy8VLXrgmoiD4b3VQEUNH1keN1TPXNT0hIxiQJGvr5PCinbBhLGnXyMb++KE4ZH+\nTCrwDUEDneNN4/kobVg4D17DZAyxZcUbu1JUHUh2TQKBgQDc7ctecqsWYgga3bEP\nueUb3rbXeFyyK0aRg9sfDkxLHj0wuvhMley5RDgvLh6Rug83nffjRz8MHnv+wSBt\nUtulq3Op9hla+EpErM46GgbOW0vx2ybYgPzAW6OXfyHw1XBe/ld327XyHdkLk8lR\nhkjX1PtyvaFHlnMSTxKs2de2XQKBgQC3lY2G5cMnxqtqgJms5ys8RHqYkOt5uZ72\ngLtBbmlgYX2gDMSDqiUmdxml6JzSig28IOvFt8wnb4W8uopU7LQwenraSoXF+31r\nyAu7bmNL9bmnsrvvmYoyUmCRsBnpm2eOEuuyOb9+tvVo1bQnJqJbRuNSggh3q2QF\njd36BKxzAwKBgQCpXX63dA6mhRaTifpQBQGXgQAIZNQjHjvmGAAmaa6hM5hTQDJT\ne+fTC3JK8P8sVkeOKoK7cIXrw37pCKLUTF3oPmzYEbrUW12MEjGypvsqvSCWU5wP\nA6s/x8C8xhB98RJJMJBbaUqtRqZ6UpxV7CzxkOwGxUrbd4HVulqluga9XQKBgGDz\nV+Rvnlp5Lrl15LJM+qY/O8cqcVC9WFexsDJjzr6ZfbByTa2Cw0/HAgJ+D6OYSJyb\nfifSYrxIxwXeNYOX5ajcZdi2FmNx5tBuutNm/oV05XDMkTd9jF/65QjLSUP3T/7V\nuydKG/kdQgj1IsiyPHebvh0qkrIwDwhn3VxV74RlAoGAaZ9b4EoVq7mVIEWzSgtJ\n6S9brI+LhmLY3Oa4+af7vzDEI6HkVD+vPZar87DoxpixKUibekcyJ5keRSwWwP23\nm1xYkU6XlN6tOZYVgpdtGhH4jKWXzK+INoB5QEXMukJcEYNsUtXsbWvoS/Wr3APR\nB1H0GVibS0enrqgMkD/eY48=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-exgle@beerrecenzionservice-694f8.iam.gserviceaccount.com",
+  "client_id": "110973153555628391408",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-exgle%40beerrecenzionservice-694f8.iam.gserviceaccount.com"
+}
+}
+
+firebase = pyrebase.initialize_app(config)

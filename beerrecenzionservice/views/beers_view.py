@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 from flask import (Blueprint, flash, g, redirect, render_template, request, sessions, url_for)
@@ -6,6 +7,7 @@ from flask_uploads import UploadSet, IMAGES
 
 from werkzeug.exceptions import abort
 
+from beerrecenzionservice.firebase import firebase
 from beerrecenzionservice.forms.beer_form import BeerForm
 from beerrecenzionservice.forms.comment_form import CommentForm
 
@@ -71,14 +73,15 @@ def add_beer():
         category_name = form.category.data
         category = BeerCategory.objects(name=category_name).first()
         user = current_user.user
-        x = request.files[form.photo.name]
-        photo = photos.save(x)
-
+        photo_file = request.files[form.photo.name]
+        storage = firebase.storage()
+        filename, extension = os.path.splitext(photo_file.filename)
+        uploaded = storage.child(f"images/{filename}-{datetime.timestamp(datetime.now())}{extension}").put(photo_file)
         beer = Beer(name=form.name.data,
                     category=category,
                     description=form.description.data,
                     user=user,
-                    photo=photos.url(photo))
+                    photo=uploaded)
         beer.save()
         flash('Thanks for added beer')
         return redirect(url_for('beers.beer', beer_id=beer.id))

@@ -88,7 +88,7 @@ def create_app(test_config=None):
     admin_panel.add_view(CategoryBeerView(BeerCategory))
     admin_panel.add_view(BeerView(Beer))
 
-    #admin_panel.add_view(FileAdmin('/uploads', 'uploads/', name='Beer Images'))
+    admin_panel.add_view(FileAdmin('/uploads', 'uploads/', name='Beer Images'))
 
     Bootstrap(app)
     return app
