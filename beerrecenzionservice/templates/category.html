@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='4.css') }}">
 {%endblock%}
 <div class="container" style="margin-top: 50px">
-    <div style="display: flex; justify-content: space-between">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
     <h3>{% block title %}{{category_name}}{% endblock %}</h3>
     {% if current_user.is_authenticated and not searching%}
         <a href="{{ url_for ('beers.add_beer')}}" class="btn btn-success" style="margin-top: 10px; margin-bottom:10px">Dodaj nowe piwo</a>
