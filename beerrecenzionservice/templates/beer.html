@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+<div class="container">
+  <div style="display: flex; justify-content: space-between; margin-top:40px">
+    <div>
+  <h1>{% block title %}{{beer.name}}{% endblock %}</h1>
+  <h3>{{beer.category.name}}</h3>
+    </div>
+                            {% if beer.photo %}
+                        <img class="card-img-top" style="margin-top: 20px; max-height: 300px; max-width: 300px;"  src="{{beer.photo}}" alt="Card image cap2">
+                    {% else %}
+                        <img class="card-img-top" style="margin-top: 20px; max-height: 300px; max-width: 300px" src="{{url_for('static', filename='no_photo.png')}}" alt="Card image cap2">
+                    {% endif %}
+  </div>
+    <h2 style="margin-top:20px; margin-bottom: 20px">Komentarze:</h2>
+  {% for result in beer.comments %}
+    <div><h4>{{result.content}}</h4><h5>{{result.date}} {{result.user}}</h5>
+      <hr/>
+  {%endfor%}
+      {% if current_user.is_authenticated %}
+  <form method=post>
+    <h2 style="margin-bottom: 20px">Dodaj komentarz:</h2>
+  <div class="form-group" style="max-width:600px">
+    {{ render_field(form.content, class='form-control') }}
+    <input type=submit class="btn btn-primary btn-block" style="margin-top: 20px" value=Dodaj>
+  </div>
+</form>
+      {%endif%}
+</div>
+{% endblock %}

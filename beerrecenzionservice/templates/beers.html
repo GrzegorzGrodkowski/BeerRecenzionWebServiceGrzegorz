@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+{% for result in beers %}
+    <div class="card" style="float: left; width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">{{result.name}}</h4>
+    <p class="card-text">{{result.category}}</p>
+    <a href="" class="btn btn-primary">Zobacz więcej</a>
+  </div>
+</div>
+    {% endfor %}

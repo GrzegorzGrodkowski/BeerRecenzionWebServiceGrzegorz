@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e517014e-1b8a-4d21-87d0-fc03270293f9" name="Default Changelist" comment="Init flask project structure." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JupyterTrust" id="6140aa6d-f2bb-43c8-a477-224fb4303990" />
+  <component name="ProjectId" id="1jxv2hhAwImjwBQh9TJFVcZyOYH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PythonProjects\BeerRecenzionService\beer_recenzion_service\beerrecenzionservice\static" />
+      <recent name="F:\PythonProjects\BeerRecenzionService\beer_recenzion_service\beerrecenzionservice\templates" />
+      <recent name="F:\PythonProjects\BeerRecenzionService\beer_recenzion_service\beerrecenzionservice\templates\auth" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="beer_recenzion_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e517014e-1b8a-4d21-87d0-fc03270293f9" name="Default Changelist" comment="" />
+      <created>1604758351896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604758351896</updated>
+      <workItem from="1611822220773" duration="4000" />
+      <workItem from="1612184031092" duration="2000" />
+      <workItem from="1612184081204" duration="3000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init flask project structure.">
+      <created>1604842889700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604842889701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/PythonProjects/BeerRecenzionService/beer_recenzion_service/venv" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="50" />
+                  <entry key="3" value="49" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init flask project structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Init flask project structure." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="118" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613476722106">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="118" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1613476722106" />
+    <state x="473" y="366" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614168432513">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="473" y="366" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1614168432513" />
+    <state x="1698" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614071785085">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1698" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1614071785085" />
+    <state x="1700" y="278" key="FileChooserDialogImpl" timestamp="1614169407315">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1700" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1614169407315" />
+    <state width="1163" height="248" key="GridCell.Tab.0.bottom" timestamp="1614169272183">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1163" height="248" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272183" />
+    <state width="1163" height="248" key="GridCell.Tab.0.center" timestamp="1614169272182">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1163" height="248" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272182" />
+    <state width="1163" height="248" key="GridCell.Tab.0.left" timestamp="1614169272182">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1163" height="248" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272182" />
+    <state width="1163" height="248" key="GridCell.Tab.0.right" timestamp="1614169272182">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1163" height="248" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1614169272182" />
+    <state width="1391" height="835" key="GridCell.Tab.1.bottom" timestamp="1614160816632">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1391" height="835" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
+    <state width="1391" height="835" key="GridCell.Tab.1.center" timestamp="1614160816632">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1391" height="835" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
+    <state width="1391" height="835" key="GridCell.Tab.1.left" timestamp="1614160816632">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1391" height="835" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
+    <state width="1391" height="835" key="GridCell.Tab.1.right" timestamp="1614160816632">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1391" height="835" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
+    <state x="209" y="209" key="SettingsEditor" timestamp="1614169501753">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="209" y="209" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1614169501753" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/beerrecenzionservice/views/beers_view.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="selected_beer.my_metaclass" />
+        <watch expression="photo.thumbnail._session" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

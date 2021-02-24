@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+<div class="container">
+<div id="myCarousel" class="carousel slide" style="height:400px"  data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" style="height:400px" >
+    <div class="item active" style="height:400px" >
+      <img src="../static/piwo1.jpg" style="height: 100%; width: 100%; object-fit: cover" alt="Piwo1">
+    </div>
+
+    <div class="item" style="height:400px" >
+      <img src="../static/piwo2.png" style="height: 100%; width: 100%; object-fit: cover" alt="Piwo2">
+    </div>
+
+    <div class="item" style="height:400px" >
+      <img src="../static/piwo3.jpg" style="height: 100%; width: 100%; object-fit: cover" alt="Piwo3">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="jumbotron">
+    <h1>Witaj na naszej stronie z recenzjami napojów piwnych.</h1>
+    <p>Jest to strona poświęcona różnego rodzaju napojom piwnym.
+        U nas dowiesz się jakie piwo posiada opinie oraz gdzie w okilicy możesz je
+        kupić aby skosztować wybranego wspaniałego trunku.</p>
+</div>
+    <div style="display: flex; flex-wrap: wrap;">
+        <div style="margin: 0px 10px 10px 10px">
+          <h3>Wyszukiwanie:</h3>
+          <form method=post>
+              {{ render_field(form.search_text, class='form-control') }}
+            <button type="submit" class="btn btn-success" style="margin-top: 10px">Szukaj piwa</button>
+          </form>
+        </div>
+        <div style="margin: 0px 10px 10px 10px; flex: 1;">
+            <h3>Ostatnio komentowane piwa:</h3>
+            <div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+                {% for result in beers %}
+                <div class="card" style="margin: 10px 20px 10px 0px; width: 150px">
+                            {% if result.photo %}
+                        <img class="card-img-top" style="display: block; max-height: 150px; max-width: 150px; margin-left: auto; margin-right: auto"  src="{{result.photo}}" alt="Card image cap2">
+                    {% else %}
+                        <img class="card-img-top" style="max-height: 150px; max-width: 150px" src="{{url_for('static', filename='no_photo.png')}}" alt="Card image cap2">
+                    {% endif %}
+                    <div class="card-body">
+                        <h4 class="card-title">{{result.name}}</h4>
+                        <p class="card-text">{{result.category}}</p>
+                        <a href="{{ url_for ('beers.beer', beer_id=result.id)}}" class="btn btn-primary">Szczegóły</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
