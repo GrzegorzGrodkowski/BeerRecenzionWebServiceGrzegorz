@@ -5,7 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e517014e-1b8a-4d21-87d0-fc03270293f9" name="Default Changelist" comment="Init flask project structure." />
+    <list default="true" id="e517014e-1b8a-4d21-87d0-fc03270293f9" name="Default Changelist" comment="Init flask project structure.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,10 +204,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1391" height="835" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1614160816632" />
-    <state x="209" y="209" key="SettingsEditor" timestamp="1614169501753">
+    <state x="209" y="209" key="SettingsEditor" timestamp="1614170439868">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="209" y="209" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1614169501753" />
+    <state x="209" y="209" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1614170439868" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
