@@ -6,14 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e517014e-1b8a-4d21-87d0-fc03270293f9" name="Default Changelist" comment="Init flask project structure.">
-      <change afterPath="$PROJECT_DIR$/beerrecenzionservice/firebase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beerrecenzionservice/serviceAccountCredential.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beerrecenzionservice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/beerrecenzionservice/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beerrecenzionservice/views/beers_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/beerrecenzionservice/views/beers_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beerrecenzionservice/views/main_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/beerrecenzionservice/views/main_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.25.1.dist-info/RECORD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,15 +213,6 @@
     <state x="209" y="209" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1614170439868" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/beerrecenzionservice/views/beers_view.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="selected_beer.my_metaclass" />
