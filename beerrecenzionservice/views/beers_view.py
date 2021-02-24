@@ -74,9 +74,12 @@ def add_beer():
         category = BeerCategory.objects(name=category_name).first()
         user = current_user.user
         photo_file = request.files[form.photo.name]
-        storage = firebase.storage()
-        filename, extension = os.path.splitext(photo_file.filename)
-        uploaded = storage.child(f"images/{filename}-{datetime.timestamp(datetime.now())}{extension}").put(photo_file)
+        uploaded = None
+        if len(photo_file.filename) > 0:
+            storage = firebase.storage()
+            filename, extension = os.path.splitext(photo_file.filename)
+            uploaded = storage.child(f"images/{filename}-{datetime.timestamp(datetime.now())}{extension}").put(photo_file)
+
         beer = Beer(name=form.name.data,
                     category=category,
                     description=form.description.data,
