@@ -7,7 +7,7 @@ from flask_uploads import UploadSet, IMAGES
 
 from werkzeug.exceptions import abort
 
-from beerrecenzionservice.firebase import firebase
+
 from beerrecenzionservice.forms.beer_form import BeerForm
 from beerrecenzionservice.forms.comment_form import CommentForm
 
